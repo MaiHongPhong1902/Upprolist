@@ -57,165 +57,68 @@ header_rewrites:
 
 scriptings:
 - http_response:
+    name: Locket_Gold
+    match: ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$)
+    script_url: https://raw.githubusercontent.com/MaiHongPhong1902/Locket_gold_egern/refs/heads/main/Locket_Gold.js
+    body_required: true
+    update_interval: 5
+- http_response:
     name: iSteal
     match: ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$)
-    script_url: https://N9dev-dev.github.io/SL/scripts/ARC.js
+    script_url: https://raw.githubusercontent.com/MaiHongPhong1902/Upprolist/refs/heads/main/AppList/iSteal.js
     body_required: true
     update_interval: 5
 - http_response:
     name: Im Him
     match: https://api.adapty.io/api/v1/sdk/analytics/profiles
-    script_url: https://N9dev-dev.github.io/SL/scripts/ADPTY.js
+    script_url: https://raw.githubusercontent.com/MaiHongPhong1902/Upprolist/refs/heads/main/AppList/ADPTY.js
     body_required: true
     update_interval: 5
 - http_response:
     name: TIDAL
     match: api\.tidal\.com/v1/users/(\d+)/subscription\?countryCode=([A-Z]{2})&deviceType=[A-Z]+&locale=[a-z]+&platform=[A-Z]+
-    script_url: https://N9dev-dev.github.io/SL/scripts/TIDAL.js
+    script_url: https://raw.githubusercontent.com/MaiHongPhong1902/Upprolist/refs/heads/main/AppList/TIDAL.js
     body_required: true
     update_interval: 5
 - http_response:
     name: Im Dev
     match: https://order.creativeappnow.com/iap/receipt
-    script_url: https://N9dev-dev.github.io/SL/scripts/Facemoji.js
+    script_url: https://raw.githubusercontent.com/MaiHongPhong1902/Upprolist/refs/heads/main/AppList/Facemoji.js
     body_required: true
     update_interval: 5
 - http_response:
     name: Readdle
     match: https:\/\/license\.pdfexpert\.com\/api\/2\.0\/(calendarslite|pdfexpert6|documents)\/subscription\/(refresh|check)
-    script_url: https://N9dev-dev.github.io/SL/scripts/Documents.js
-    body_required: true
-    update_interval: 5
-- http_response:
-    name: Im FLUFFY
-    match: ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt
-    script_url: https://N9dev-dev.github.io/SL/scripts/BDIts.js
-    body_required: true
-    update_interval: 5
-- http_response:
-    name: Ramadan Kareem
-    match: us-central1-muslim-pro-app.cloudfunctions.net/GetUserPremiumInfo
-    script_url: https://N9dev-dev.github.io/SL/scripts/MuslimPro.js
+    script_url: https://raw.githubusercontent.com/MaiHongPhong1902/Upprolist/refs/heads/main/AppList/Documents.js
     body_required: true
     update_interval: 5
 - http_response:
     name: Grammarly
     match: ^https?:\/\/subscription\.grammarly\.com\/api\/v1\/subscription$
-    script_url: https://n9dev-dev.github.io/SL/scripts/Grammarly.js
-    body_required: true
-    update_interval: 5
-- http_response:
-    name: eSound
-    match: api.esound.app/account
-    script_url: https://n9dev-dev.github.io/SL/scripts/eSound.js
+    script_url: https://raw.githubusercontent.com/MaiHongPhong1902/Upprolist/refs/heads/main/AppList/Grammarly.js
     body_required: true
     update_interval: 5
 - http_response:
     name: Tezza
     match: https://api.purchasely.io/paab/user_purchases
-    script_url: https://n9dev-dev.github.io/SL/scripts/Tezza.js
+    script_url: https://raw.githubusercontent.com/MaiHongPhong1902/Upprolist/refs/heads/main/AppList/Tezza.js
     body_required: true
     update_interval: 5
 - http_response:
     name: Blinkist
     match: api.blinkist.com/v4/me/access
-    script_url: https://n9dev-dev.github.io/SL/scripts/Blinkist.js
-    body_required: true
-    update_interval: 5
-- http_response:
-    name: AnswerAI
-    match: api.gptkeyboard.app/api/v1/user/self
-    script_url: https://N9dev-dev.github.io/SL/scripts/AnswerAI.js
-    body_required: true
-    update_interval: 5
-- http_response:
-    name: Vaia
-    match: prod.studysmarter.de/payments/info
-    script_url: https://N9dev-dev.github.io/SL/scripts/Vaia.js
-    body_required: true
-    update_interval: 5
-- http_response:
-    name: QONV
-    match: api.qonversion.io/v1/user/init
-    script_url: https://N9dev-dev.github.io/SL/scripts/QNVRN.js
-    body_required: true
-    update_interval: 5
-- http_response:
-    name: DJ
-    match: https://api.mwm-users.com/me/features
-    script_url: https://N9dev-dev.github.io/SL/scripts/edjingMix.js
-    body_required: true
-    update_interval: 5
-- http_response:
-    name: VivaCut
-    match: https://api-fra.vivacut.com/api/rest/commerce/integrate/vip/perform
-    script_url: https://N9dev-dev.github.io/SL/scripts/VivaCut.js
-    body_required: true
-    update_interval: 5
-- http_response:
-    name: Carrot Weather
-    match: https://carrotweather.herokuapp.com/parse/functions/findSubscriptionsForUserId
-    script_url: https://N9dev-dev.github.io/SL/scripts/Carrot.js
-    body_required: true
-    update_interval: 5
-- http_response:
-    name: Photomath
-    match: https://lapi.photomath.net/v5/me
-    script_url: https://N9dev-dev.github.io/SL/scripts/Photomath.js
+    script_url: https://raw.githubusercontent.com/MaiHongPhong1902/Upprolist/refs/heads/main/AppList/Blinkist.js
     body_required: true
     update_interval: 5
 - http_request:
     name: Lightroom
     match: https://lcs-mobile-cops.adobe.io/mobiles/access_profile/v3
-    script_url: https://N9dev-dev.github.io/SL/scripts/Lightroom.js
-    body_required: true
-    update_interval: 5
-- http_request:
-    name: VSCO
-    match: ^https?://api.revenuecat.com/.+/(receipts$|subscribers/?(.*?)*$)
-    script_url: https://N9dev-dev.github.io/SL/scripts/VSCO.js
-    body_required: true
-    update_interval: 5
-- http_response:
-    name: KineMaster
-    match: https://api-account.kinemasters.com/v2/user/subscribe
-    script_url: https://N9dev-dev.github.io/SL/scripts/KineMaster.js
+    script_url: https://raw.githubusercontent.com/MaiHongPhong1902/Upprolist/refs/heads/main/AppList/Lightroom.js
     body_required: true
     update_interval: 5
 - http_request:
     name: PicsArt
     match: https://api.picsart.com/gw-v2/shop/subscription/apple/purchases
-    script_url: https://N9dev-dev.github.io/SL/scripts/PicsArt.js
+    script_url: https://raw.githubusercontent.com/MaiHongPhong1902/Upprolist/refs/heads/main/AppList/PicsArt.js
     body_required: true
     update_interval: 5
-- http_response:
-    name: Alight Motion
-    match: https://us-central1-alight-creative.cloudfunctions.net/getAccountStatusAndLicenses
-    script_url: https://N9dev-dev.github.io/SL/scripts/AlightMotion.js
-    body_required: true
-    update_interval: 5
-- http_response:
-    name: Sandbox Pixel Art
-    match: api.sandbox.love/accounts/current
-    script_url: https://N9dev-dev.github.io/SL/scripts/SandBox.js
-    body_required: true
-    update_interval: 5
-- http_response:
-    name: TradingView1
-    match: www.tradingview.com/order/apple/device/
-    script_url: https://N9dev-dev.github.io/SL/scripts/TradingViewDeviceReceipt.js
-    body_required: true
-    update_interval: 5
-- http_response:
-    name: TradingView2
-    match: www.tradingview.com/order/apple/receipt/
-    script_url: https://N9dev-dev.github.io/SL/scripts/TradeViewAppleReceipt.js
-    body_required: true
-    update_interval: 5
-- http_response:
-    name: TradingView3
-    match: www.tradingview.com/api/v1/user/profile/me/
-    script_url: https://N9dev-dev.github.io/SL/scripts/TradingViewProf.js
-    body_required: true
-    update_interval: 5
-1
