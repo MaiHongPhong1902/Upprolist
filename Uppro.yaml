@@ -63,12 +63,6 @@ scriptings:
     body_required: true
     update_interval: 5
 - http_response:
-    name: iSteal
-    match: ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$)
-    script_url: https://raw.githubusercontent.com/MaiHongPhong1902/Upprolist/refs/heads/main/AppList/iSteal.js
-    body_required: true
-    update_interval: 5
-- http_response:
     name: Im Him
     match: https://api.adapty.io/api/v1/sdk/analytics/profiles
     script_url: https://raw.githubusercontent.com/MaiHongPhong1902/Upprolist/refs/heads/main/AppList/ADPTY.js
