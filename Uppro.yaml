@@ -75,12 +75,6 @@ scriptings:
     body_required: true
     update_interval: 5
 - http_response:
-    name: Im Dev
-    match: https://order.creativeappnow.com/iap/receipt
-    script_url: https://raw.githubusercontent.com/MaiHongPhong1902/Upprolist/refs/heads/main/AppList/Facemoji.js
-    body_required: true
-    update_interval: 5
-- http_response:
     name: Readdle
     match: https:\/\/license\.pdfexpert\.com\/api\/2\.0\/(calendarslite|pdfexpert6|documents)\/subscription\/(refresh|check)
     script_url: https://raw.githubusercontent.com/MaiHongPhong1902/Upprolist/refs/heads/main/AppList/Documents.js
