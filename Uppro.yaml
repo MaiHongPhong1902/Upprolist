@@ -6,11 +6,7 @@ mitm:
   - api.revenuecat.com
   - buy.itunes.apple.com
   - api.picsart.com
-  - api-account.kinemasters.com
   - us-central1-alight-creative.cloudfunctions.net
-  - api.adapty.io
-  - carrotweather.herokuapp.com
-  - lapi.photomath.net
   - lcs-mobile-cops.adobe.io
   - order.creativeappnow.com
   - api.mwm-users.com
@@ -20,18 +16,12 @@ mitm:
   - api.qonversion.io
   - api.blinkist.com
   - subscription.grammarly.com
-  - api.esound.app
   - api.purchasely.io
-  - www.tradingview.com
 http_captures:
 - api.revenuecat.com
 - buy.itunes.apple.com
-- api-account.kinemasters.com
 - api.picsart.com
 - us-central1-alight-creative.cloudfunctions.net
-- api.adapty.io
-- carrotweather.herokuapp.com
-- lapi.photomath.net
 - lcs-mobile-cops.adobe.io
 - order.creativeappnow.com
 - api.mwm-users.com
@@ -43,7 +33,6 @@ http_captures:
 - subscription.grammarly.com
 - api.esound.app
 - api.purchasely.io
-- www.tradingview.com
 
 header_rewrites:
 - delete:
