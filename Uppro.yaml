@@ -17,22 +17,59 @@ mitm:
   - api.blinkist.com
   - subscription.grammarly.com
   - api.purchasely.io
+  - spclient.wg.spotify.com
+  - audio4-ak-spotify-com.akamaized.net
+  - cdn-spotify-experiments.conductrics.com
+  - heads-ak-spotify-com.akamaized.net
+  - spotify.com.edgesuite.net
+  - spotify.map.fastly.net
+  - spotify.map.fastlylb.net
 http_captures:
-- api.revenuecat.com
-- buy.itunes.apple.com
-- api.picsart.com
-- us-central1-alight-creative.cloudfunctions.net
-- lcs-mobile-cops.adobe.io
-- order.creativeappnow.com
-- api.mwm-users.com
-- us-central1-muslim-pro-app.cloudfunctions.net
-- api.gptkeyboard.app
-- prod.studysmarter.de
-- api.qonversion.io
-- api.blinkist.com
-- subscription.grammarly.com
-- api.esound.app
-- api.purchasely.io
+  - api.revenuecat.com
+  - buy.itunes.apple.com
+  - api.picsart.com
+  - us-central1-alight-creative.cloudfunctions.net
+  - lcs-mobile-cops.adobe.io
+  - order.creativeappnow.com
+  - api.mwm-users.com
+  - us-central1-muslim-pro-app.cloudfunctions.net
+  - api.gptkeyboard.app
+  - prod.studysmarter.de
+  - api.qonversion.io
+  - api.blinkist.com
+  - subscription.grammarly.com
+  - api.esound.app
+  - api.purchasely.io
+  - spclient.wg.spotify.com
+  - audio-ak-spotify-com.akamaized.net
+  - byspotify.com
+  - heads4-ak-spotify-com.akamaized.net
+  - pscdn.co
+  - scdn.co
+  - spoti.fi
+  - spotify-com.akamaized.net
+  - spotify-everywhere.com
+  - spotify.app.link
+  - spotify.com
+  - spotify.design
+  - spotifycdn.com
+  - spotifycdn.net
+  - spotifycharts.com
+  - spotifycodes.com
+  - spotifyforbrands.com
+  - spotifyjobs.com
+  - spotifynewsroom.jp
+  - spotilocal.com
+  - tospotify.com
+  host_keyword:
+    - spotify
+
+user_agent:
+    - Spotify*
+
+ip_cidr:
+    - 104.154.127.126/32
+    - 35.186.224.47/32
 
 header_rewrites:
 - delete:
