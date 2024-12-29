@@ -52,9 +52,9 @@ scriptings:
     body_required: true
     update_interval: 5
 - http_response:
-    name: TIDAL
-    match: api\.tidal\.com/v1/users/(\d+)/subscription\?countryCode=([A-Z]{2})&deviceType=[A-Z]+&locale=[a-z]+&platform=[A-Z]+
-    script_url: https://raw.githubusercontent.com/MaiHongPhong1902/Upprolist/refs/heads/main/AppList/TIDAL.js
+    name: Spotify
+    match: ^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$
+    script_url: https://raw.githubusercontent.com/MaiHongPhong1902/Upprolist/refs/heads/main/AppList/Spotify.js
     body_required: true
     update_interval: 5
 - http_response:
