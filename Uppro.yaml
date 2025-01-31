@@ -101,9 +101,3 @@ scriptings:
     script_url: https://raw.githubusercontent.com/MaiHongPhong1902/Upprolist/refs/heads/main/AppList/PicsArt.js
     body_required: true
     update_interval: 5
-- http_response:
-    name: Tezza
-    match: https://api.purchasely.io/paab/user_purchases
-    script_url: https://n9dev-dev.github.io/SL/scripts/Tezza.js
-    body_required: true
-    update_interval: 5
