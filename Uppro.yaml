@@ -6,29 +6,11 @@ mitm:
   - api.revenuecat.com
   - buy.itunes.apple.com
   - api.picsart.com
+  - api-account.kinemasters.com
   - us-central1-alight-creative.cloudfunctions.net
-  - lcs-mobile-cops.adobe.io
-  - order.creativeappnow.com
-  - api.mwm-users.com
-  - us-central1-muslim-pro-app.cloudfunctions.net
-  - api.gptkeyboard.app
-  - prod.studysmarter.de
-  - api.qonversion.io
-  - api.blinkist.com
-  - subscription.grammarly.com
-  - api.purchasely.io
-  - spclient.wg.spotify.com
-  - audio4-ak-spotify-com.akamaized.net
-  - cdn-spotify-experiments.conductrics.com
-  - heads-ak-spotify-com.akamaized.net
-  - spotify.com.edgesuite.net
-  - spotify.map.fastly.net
-  - spotify.map.fastlylb.net
-http_captures:
-  - api.revenuecat.com
-  - buy.itunes.apple.com
-  - api.picsart.com
-  - us-central1-alight-creative.cloudfunctions.net
+  - api.adapty.io
+  - carrotweather.herokuapp.com
+  - lapi.photomath.net
   - lcs-mobile-cops.adobe.io
   - order.creativeappnow.com
   - api.mwm-users.com
@@ -40,16 +22,25 @@ http_captures:
   - subscription.grammarly.com
   - api.esound.app
   - api.purchasely.io
-  - spclient.wg.spotify.com
-  - audio-ak-spotify-com.akamaized.net
-  - byspotify.com
-  - heads4-ak-spotify-com.akamaized.net
-  - pscdn.co
-  - scdn.co
+  - www.tradingview.com
+http_captures:
+- api.revenuecat.com
+- buy.itunes.apple.com
+- api-account.kinemasters.com
+- api.picsart.com
+- us-central1-alight-creative.cloudfunctions.net
+- api.adapty.io
+- carrotweather.herokuapp.com
+- lapi.photomath.net
+- lcs-mobile-cops.adobe.io
+- order.creativeappnow.com
+- api.mwm-users.com
+- us-central1-muslim-pro-app.cloudfunctions.net
+- api.gptkeyboard.app
+- subscription.grammarly.com
+- api.esound.app
+- api.purchasely.io
 
-ip_cidr:
-    - 104.154.127.126/32
-    - 35.186.224.47/32
 
 header_rewrites:
 - delete:
