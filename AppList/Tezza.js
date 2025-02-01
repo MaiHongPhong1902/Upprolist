@@ -25,4 +25,3 @@ objc = {
   }
 
 $done({ body: JSON.stringify(objc) });
-1
