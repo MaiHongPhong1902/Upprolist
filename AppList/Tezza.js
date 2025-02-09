@@ -21,6 +21,7 @@ objc = {
         "subscription_status": "ACTIVATED"
       }
     ],
+     "expired_subscriptions": [],
     "non_consumables": []
   }
 $done({ body: JSON.stringify(objc) });
