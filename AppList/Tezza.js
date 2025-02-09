@@ -1,6 +1,4 @@
-var objc = JSON.parse($response.body);
-
-objc = {
+let objc = {
     "active_subscriptions": [
       {
         "id": "04c682fe-47b2-4b91-b215-ed09cc3ab22b",
@@ -24,4 +22,5 @@ objc = {
      "expired_subscriptions": [],
     "non_consumables": []
   }
-$done({ body: JSON.stringify(objc) });
+
+$done({ response: {body: JSON.stringify(objc),status: 200} });
