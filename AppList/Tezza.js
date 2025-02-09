@@ -10,7 +10,7 @@ objc = {
         "is_family_shared": false,
         "offer_identifier": null,
         "offer_type": "FREE_TRIAL",
-        "plan_id": "a9124deb-c786-40f1-8d52-272edb4c0bc1",",
+        "plan_id": "a9124deb-c786-40f1-8d52-272edb4c0bc1",
         "purchase_token": null,
         "purchased_at": "2025-02-06T08:09:54Z",
         "store_country": "US",
