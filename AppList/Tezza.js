@@ -18,7 +18,7 @@ objc = {
         "cancelled_at": null,
         "next_renewal_at": "2029-03-19T21:32:26Z",
         "original_purchased_at": "2025-02-06T08:09:54Z",
-        "subscription_status": "AUTO_RENEWING"
+        "subscription_status": "ACTIVATED"
       }
     ],
     "non_consumables": []
