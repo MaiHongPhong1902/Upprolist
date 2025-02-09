@@ -13,7 +13,7 @@ objc = {
         "plan_id": "a9124deb-c786-40f1-8d52-272edb4c0bc1",
         "purchase_token": null,
         "purchased_at": "2025-02-06T08:09:54Z",
-        "store_country": "US",
+        "store_country": "VN",
         "store_type": "APPLE_APP_STORE",
         "cancelled_at": null,
         "next_renewal_at": "2029-03-19T21:32:26Z",
