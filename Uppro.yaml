@@ -22,7 +22,6 @@ mitm:
   - subscription.grammarly.com
   - api.esound.app
   - api.purchasely.io
-  - www.tradingview.com
 http_captures:
 - api.revenuecat.com
 - buy.itunes.apple.com
